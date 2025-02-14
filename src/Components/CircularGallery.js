@@ -330,17 +330,17 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `https://picsum.photos/seed/1/800/600?grayscale`, text: 'Bridge' },
-      { image: `https://picsum.photos/seed/2/800/600?grayscale`, text: 'Desk Setup' },
-      { image: `https://picsum.photos/seed/3/800/600?grayscale`, text: 'Waterfall' },
-      { image: `https://picsum.photos/seed/4/800/600?grayscale`, text: 'Strawberries' },
-      { image: `https://picsum.photos/seed/5/800/600?grayscale`, text: 'Deep Diving' },
-      { image: `https://picsum.photos/seed/16/800/600?grayscale`, text: 'Train Track' },
-      { image: `https://picsum.photos/seed/17/800/600?grayscale`, text: 'Santorini' },
-      { image: `https://picsum.photos/seed/8/800/600?grayscale`, text: 'Blurry Lights' },
-      { image: `https://picsum.photos/seed/9/800/600?grayscale`, text: 'New York' },
-      { image: `https://picsum.photos/seed/10/800/600?grayscale`, text: 'Good Boy' },
-      { image: `https://picsum.photos/seed/21/800/600?grayscale`, text: 'Coastline' },
+      { image: '/images/1.jpg', text: 'Monish' },
+      { image: `/images/2.jpg`, text: 'Hotel Taj' },
+      { image: `/images/3.jpg`, text: 'Hotel Taj' },
+      { image: `/images/4.jpg`, text: 'Hotel Taj' },
+      { image: `/images/5.jpg`, text: 'Walking in IITB' },
+      { image: `/images/6.jpg`, text: '3 Monkey' },
+      { image: `/images/7.jpg`, text: 'Bombay Bidus' },
+      { image: `/images/8.jpg`, text: 'Celebrities' },
+      { image: `/images/9.jpg`, text: 'New York' },
+      { image: `/images/10.jpg`, text: 'Good Boy' },
+      { image: `/images/11.jpg`, text: 'Bhukkhad' },
       { image: `https://picsum.photos/seed/12/800/600?grayscale`, text: "Palm Trees" }
     ]
     const galleryItems = items && items.length ? items : defaultItems
